@@ -23,7 +23,7 @@
       .navbar a {
         float: left;
         font-size: 16px;
-        color: black;
+        color: white;
         text-align: center;
         padding: 12px;
         text-decoration: none;
@@ -43,6 +43,7 @@
     /* Display some links to the right */
       #navbar-right {
         float: right;
+        margin: 10px;
       }
     /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
       @media screen and (max-width: 580px) {
