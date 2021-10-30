@@ -1,72 +1,46 @@
 /* Tabs at top of page*/
-  /* Navbar container */
-    .sections {
-      overflow: hidden;
-      background-color: black;
-    }
+  /* Navbar */
+    /* Dropdown Button */
+      .dropbtn {
+        background-color: white;
+        color: black;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+      }
 
-  /* Links inside the navbar (i.e. sections) */
-    .sections a {
-      float: left;
-      font-size: 12px;
-      color: black;
-      text-align: center;
-      padding: 5px 10px;
-      text-decoration: none;
-    }
+    /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
 
-  /* The portfolio dropdown container */
-    .portfolio {
-      float: left;
-      overflow: hidden;
-    }
+    /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
 
-  /* portfolio button */
-    .portfolio .portfoliobtn {
-      font-size: 10px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit; /* Important for vertical align on mobile phones */
-      margin: 0; /* Important for vertical align on mobile phones */
-    }
+    /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
 
-  /* Add a white background color to navbar links on hover */
-    .sections a:hover, .portfolio:hover .portfoliobtn {
-      background-color: white;
-    }
+    /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color:black;}
 
-  /* Portfolio dropdown content (hidden by default) */
-    .portfolio-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
+    /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {display: block;}
 
-  /* Links inside the dropdown */
-    .portfolio-content a {
-      float: left;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-  /* Add a arendell background color to dropdown links on hover */
-    .portfolio-content a:hover {
-      background-color: #6efff5;
-    }
-
-  /* Show the portfolio dropdown menu on hover */
-    .portfolio:hover .portfolio-content {
-      display: block;
-    }
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {background-color: #0c0c0c;}
 
 body {
     background-color: black;
