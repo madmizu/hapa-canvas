@@ -1,23 +1,73 @@
-.sections button {
-  background-color: black;
-  border: 1px black;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-  float: center;
-  border-radius: 20px;
-}
-.sections button:not(:last-child) {
-  border-right: none;
-}
-.sections:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.sections button:hover {
-  background-color:white;
-}
+/* Tabs at top of page*/
+  /* Navbar container */
+    .sections {
+      overflow: hidden;
+      background-color: black;
+    }
+
+  /* Links inside the navbar (i.e. sections) */
+    .sections a {
+      float: center;
+      font-size: 12px;
+      color: black;
+      text-align: center;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+  /* The portfolio dropdown container */
+    .portfolio {
+      float: left;
+      overflow: hidden;
+    }
+
+  /* portfolio button */
+    .portfolio .portfoliobtn {
+      font-size: 10px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit; /* Important for vertical align on mobile phones */
+      margin: 0; /* Important for vertical align on mobile phones */
+    }
+
+  /* Add a white background color to navbar links on hover */
+    .sections a:hover, .portfolio:hover .portfoliobtn {
+      background-color: white;
+    }
+
+  /* Portfolio dropdown content (hidden by default) */
+    .portfolio-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+  /* Links inside the dropdown */
+    .portfolio-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+  /* Add a arendell background color to dropdown links on hover */
+    .portfolio-content a:hover {
+      background-color: #6efff5;
+    }
+
+  /* Show the portfolio dropdown menu on hover */
+    .portfolio:hover .portfolio-content {
+      display: block;
+    }
+
 body {
     background-color: black;
     text-align: center;  
