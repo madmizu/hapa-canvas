@@ -1,39 +1,10 @@
 head {
   text-align: center;
 }
-#shop {
+.sections {
   float: left;
   border-radius: 20px;
   background-color: #525252;
-  width: 20%;
-  height: 50px;
-}
-#portfolio {
-  float: left;
-  border-radius: 20px;
-  background-color: #525252;
-  width: 40%;
-  height: 50px;
-}
-#progress {
-  float: right;
-  border-radius: 20px;
-  background-color: #525252;
-  width: 60%;
-  height: 50px;
-}
-#about {
-  float: right;
-  border-radius: 20px;
-  background-color: #525252;
-  width: 80%;
-  height: 50px;
-}
-#commissions {
-  float: right;
-  border-radius: 20px;
-  background-color: #525252;
-  width: 100%;
   height: 50px;
 }
 body {
