@@ -79,6 +79,8 @@
     /* Color background for subnav hover */
       .navbar a:hover, .subnav:hover .subnavbtn {
         background-color: black;
+        color: white;
+        padding-top:50px;
       }
 
     /* Style the subnav content - positioned absolute */
