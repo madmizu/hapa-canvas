@@ -9,6 +9,7 @@
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;
+    margin: 10px;
   }
 
     /* Style the logo */
@@ -57,7 +58,7 @@
           float: none;
         }
       }
-      
+
     /* The subnav menu */
       .subnav {
         float: left;
