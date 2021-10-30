@@ -5,6 +5,7 @@
   padding: 10px;
   cursor: pointer;
   float: left;
+  border-radius: 20px;
 }
 .sections button:not(:last-child) {
   border-right: none;
