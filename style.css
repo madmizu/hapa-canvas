@@ -3,7 +3,6 @@
   .navbar {
     overflow: hidden;
     background-color: white;
-    margin-right: 30px;
     padding: 90px 10px; /* Large padding to shrink on scroll (using JS) */
     transition: 0.4s; /* Adds transition effect when padding shrinks */
     position: fixed; /* sticky/fized navbar */
@@ -21,6 +20,7 @@
 
     /* Navigation links */
       .navbar a {
+        margin: 20px;
         float: left;
         font-size: 16px;
         color: black;
