@@ -1,4 +1,6 @@
-
+.sections {
+  float: left;
+}
 body {
     background-color: black;
     text-align: center;  
