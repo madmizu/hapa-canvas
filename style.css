@@ -1,14 +1,6 @@
 head {
   text-align: center;
 }
-.sections {
-  margin: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-  float: left;
-  border-radius: 20px;
-  background-color: #525252;
-}
 body {
     background-color: black;
     text-align: center;  
