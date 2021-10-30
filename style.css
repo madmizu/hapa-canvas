@@ -1,7 +1,7 @@
 head {
   text-align: center;
 }
-div {
+.sections {
   margin: 5px;
   width: 100px;
   padding-left: 10px;
@@ -14,7 +14,7 @@ body {
     background-color: black;
     text-align: center;  
   }
-div.title {
+#title {
     width: 100%;
   }
   
