@@ -11,6 +11,9 @@ div {
   border-radius: 20px;
   background-color: #525252;
 }
+div.title {
+  width: 100%;
+}
 body {
     background-color: black;
     text-align: center;
