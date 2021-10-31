@@ -25,6 +25,7 @@
         font-size: 16px;
         color: black;
         text-align: center;
+        padding-bottom: 5px;
         padding: 11px 11px;
         text-decoration: none;
         line-height: 25px;
@@ -70,6 +71,7 @@
         border: none;
         outline: none;
         color: black;
+        padding-bottom: 5px;
         padding: 14px 14px;
         background-color: inherit;
         font-family: inherit;
