@@ -87,7 +87,7 @@
         display: none;
         position: absolute;
         left: 0;
-        background-color: #93a5ce#e4eee9;
+        background-color: #93a5ce;
         width: 100%;
         z-index: 1;
       }
@@ -101,7 +101,7 @@
 
     /* Add subnav color on hover */
       .subnav-content a:hover {
-        background-color: #93a5ce#e4eee9;
+        background-color: #93a5ce;
         color: white;
       }
 
@@ -115,10 +115,10 @@ body {
     text-align: center;  
   }
   h1 {
-    color: #d2ccc4#2f4353;
+    color: #d2ccc4;
   } 
   p {
-    color: #ddbdfc#96c8fb;
+    color: #96c8fb;
   }
 #title {
     width: 100%;
