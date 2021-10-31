@@ -87,7 +87,7 @@
         display: none;
         position: absolute;
         left: 0;
-        background-color: #6efff5;
+        background-color: #93a5ce#e4eee9;
         width: 100%;
         z-index: 1;
       }
@@ -101,7 +101,7 @@
 
     /* Add subnav color on hover */
       .subnav-content a:hover {
-        background-color: #6efff5;
+        background-color: #93a5ce#e4eee9;
         color: white;
       }
 
