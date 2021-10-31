@@ -85,8 +85,9 @@
     /* Style the subnav content - positioned absolute */
       .subnav-content {
         display: none;
-        font-size: 12px;
-        scroll-padding-top: 5px;
+        font-size: 10px;
+        font-family: sans-serif;
+        padding-top: 0px;
         position: absolute;
         left: 0;
         background-color: #e3efe8;
@@ -107,6 +108,7 @@
         background-color: #e3efe8;
         background-image: linear-gradient(315deg, #e3efe8 0%, #96a7cf 74%);
         color: white;
+        padding-top: 5px;
       }
 
     /* When you move the mouse over the subnav container, open the subnav content */
