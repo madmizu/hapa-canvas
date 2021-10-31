@@ -87,7 +87,8 @@
         display: none;
         position: absolute;
         left: 0;
-        background-color: #93a5ce;
+        background-color: #e3efe8;
+        background-image: linear-gradient(315deg, #e3efe8 0%, #96a7cf 74%);
         width: 100%;
         z-index: 1;
       }
@@ -101,7 +102,8 @@
 
     /* Add subnav color on hover */
       .subnav-content a:hover {
-        background-color: #93a5ce;
+        background-color: #e3efe8;
+        background-image: linear-gradient(315deg, #e3efe8 0%, #96a7cf 74%);
         color: white;
       }
 
