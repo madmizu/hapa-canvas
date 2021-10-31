@@ -85,6 +85,8 @@
     /* Style the subnav content - positioned absolute */
       .subnav-content {
         display: none;
+        font-size: 12px;
+        padding: 10px;
         position: absolute;
         left: 0;
         background-color: #e3efe8;
