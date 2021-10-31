@@ -80,7 +80,6 @@
       .navbar a:hover, .subnav:hover .subnavbtn {
         background-color: black;
         color: white;
-        padding-top:15px;
       }
 
     /* Style the subnav content - positioned absolute */
