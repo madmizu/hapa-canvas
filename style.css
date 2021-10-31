@@ -114,6 +114,12 @@ body {
     background-color: black;
     text-align: center;  
   }
+  h1 {
+    color: #d2ccc4#2f4353;
+  } 
+  p {
+    color: #ddbdfc#96c8fb;
+  }
 #title {
     width: 100%;
   }
