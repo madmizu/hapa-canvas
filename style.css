@@ -86,7 +86,7 @@
       .subnav-content {
         display: none;
         font-size: 12px;
-        padding: 10px;
+        scroll-padding-top: 5px;
         position: absolute;
         left: 0;
         background-color: #e3efe8;
