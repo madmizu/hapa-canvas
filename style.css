@@ -33,7 +33,7 @@
       .navbar a:hover {
         background-color: black;
         color: white;
-        line-height: 25px;
+        padding-top: 0px;
       }
 
     /* Style the active/current link */
